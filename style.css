@@ -140,7 +140,7 @@ li:not(:first-child) span{
   background-color: whitesmoke;
   padding:30px;
   border-radius: 10px;
-  box-shadow: 1px 1px 1px 1px rgba(50, 116, 120, 0.993);
+  box-shadow: 0 10px 15px rgba(0,0,0,0.05);
   display: none;
 }
 .result-box h3{
