@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Typing Speed</title>
+    <link rel="shortcut icon" href="typing.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper">
+      <input type="text" class="input-field">
+      <div class="content-box">
+        <div class="typing-text">
+          <p></p>
+        </div>
+        <div class="content">
+          <ul class="result-details">
+            <li class="time">
+              <p>Time Left:</p>
+              <span><b>60</b>s</span>
+            </li>
+            <li class="mistake">
+              <p>Mistakes:</p>
+              <span>0</span>
+            </li>
+            <li class="wpm">
+              <p>WPM:</p>
+              <span>0</span>
+            </li>
+            <li class="cpm">
+              <p>CPM:</p>
+              <span>0</span>
+            </li>
+          </ul>
+          <button>Try Again</button>
+        </div>
+      </div>
+    </div>
+    <div class="result-box">
+      <h3>Result</h3>
+      <table class="result-table">
+        <tbody>
+          <tr id="wpm">
+            <td title="words per minute">
+              <Strong>0 WPM</Strong>
+            <small>(words per minute)</small>
+          </td>
+          </tr>
+          <tr id="cpm">
+            <td class="name">Character per minute</td>
+            <td class="value">
+              <strong>0</strong>
+            </td>
+          </tr>
+          <tr id="accuracy">
+            <td class="name">Accuracy</td>
+            <td class="value">
+              <strong>0</strong>
+            </td>
+          </tr>
+          <tr id="mistake">
+            <td class="name">Mistakes</td>
+            <td class="value">
+              <strong>0</strong>
+            </td>
+          </tr>
+          <tr id="try-btn">
+            <td colspan="2">
+              <button class="res-try-btn">Try Again</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    <script src="js/paragraphs.js"></script>
+    <script src="js/script.js"></script>
+  
+  </body>
+</html>
